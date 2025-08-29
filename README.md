@@ -1,12 +1,58 @@
-# React + Vite
+# 🚀 Lista de Tarefas | React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Static Badge](https://img.shields.io/badge/Status-Concluído-blue)](link_do_seu_projeto_online)
+[![Static Badge](https://img.shields.io/badge/Feito%20com-React-61DAFB?logo=react)](https://react.dev)
 
-Currently, two official plugins are available:
+## 📝 Descrição do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este é um projeto de uma aplicação de **Lista de Tarefas** simples e interativa, desenvolvido como parte de um estudo e aprimoramento em React. A aplicação permite aos usuários criar, gerenciar, pesquisar e filtrar tarefas.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Funcionalidades
+
+* **Adicionar tarefas:** Crie novas tarefas com título e categoria.
+* **Concluir tarefas:** Marque tarefas como completas.
+* **Remover tarefas:** Exclua tarefas da lista.
+* **Pesquisar tarefas:** Encontre tarefas específicas usando a barra de pesquisa.
+* **Filtrar tarefas:** Visualize as tarefas por status (todas, concluídas ou a fazer).
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **React:** Biblioteca JavaScript para a interface do usuário.
+* **JavaScript (ES6+):** Linguagem de programação principal.
+* **HTML5:** Estrutura da página.
+* **CSS3:** Estilização da aplicação.
+* **Git & GitHub:** Controle de versão e hospedagem do código.
+
+---
+
+## 💻 Como Rodar o Projeto
+
+Siga os passos abaixo para ter uma cópia local do projeto rodando em sua máquina:
+
+### **Pré-requisitos**
+
+Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
+
+### **Instalação**
+
+1.  Clone este repositório para sua máquina local:
+    ```bash
+    git clone [URL_DO_SEU_REPOSITORIO]
+    ```
+2.  Navegue até o diretório do projeto:
+    ```bash
+    cd [NOME_DA_PASTA_DO_PROJETO]
+    ```
+3.  Instale as dependências:
+    ```bash
+    npm install
+    ```
+### **Execução**
+
+Para iniciar a aplicação em modo de desenvolvimento:
+```bash
+npm start
