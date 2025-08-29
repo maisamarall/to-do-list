@@ -1,13 +1,19 @@
 import { useState } from 'react';
 
-const TodoForm = () => {
+const TodoForm = ({addTodo}) => {
     const [value, setValue] = useState("");
     const [category, setCategory] = useState("");
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if(!value || !category) return;
+        if (!value || !category) return;
         addTodo(value, category);
+        console.log(value, category);
+        addTodo(value, category);
+        resetForm();
+    };
+
+    const resetForm = () => {
         setValue("");
         setCategory("");
     };
@@ -17,8 +23,8 @@ const TodoForm = () => {
       <h2>Criar tarefa:</h2>
       <form onSubmit={handleSubmit}>
         <input 
-        type="text"
-        placeholder="Digite sua tarefa" 
+        type="text" 
+        placeholder="Digite sua titulo" 
         value={value} 
         onChange={(e) => setValue(e.target.value)}
         />
