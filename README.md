@@ -15,7 +15,7 @@ Este é um projeto de uma aplicação de **Lista de Tarefas** simples e interati
 * **Concluir tarefas:** Marque tarefas como completas.
 * **Remover tarefas:** Exclua tarefas da lista.
 * **Pesquisar tarefas:** Encontre tarefas específicas usando a barra de pesquisa.
-* **Filtrar tarefas:** Visualize as tarefas por status (todas, concluídas ou a fazer).
+* **Filtrar tarefas:** Visualize as tarefas por status (todas, completas ou incompletas).
 
 ---
 
